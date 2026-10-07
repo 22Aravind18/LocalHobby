@@ -1,0 +1,21 @@
+{
+  "packageId": "com.lumo.app",
+  "host": "YOUR-DOMAIN.example.com",
+  "name": "Lumo",
+  "launcherName": "Lumo",
+  "display": "standalone",
+  "themeColor": "#4338ca",
+  "navigationColor": "#f5f6f8",
+  "backgroundColor": "#f5f6f8",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://YOUR-DOMAIN.example.com/icons/icon-512.png",
+  "maskableIconUrl": "https://YOUR-DOMAIN.example.com/icons/maskable-512.png",
+  "webManifestUrl": "https://YOUR-DOMAIN.example.com/manifest.webmanifest",
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "signingKey": { "path": "./android.keystore", "alias": "lumo" },
+  "orientation": "portrait",
+  "fallbackType": "customtabs",
+  "minSdkVersion": 21
+}
